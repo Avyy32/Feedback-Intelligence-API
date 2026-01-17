@@ -1,8 +1,8 @@
 # 🧠 Feedback Intelligence API (AI/ML Backend)
 
-This project is a **Machine Learning–powered backend API** that analyzes customer feedback text and classifies it into meaningful business categories, along with a confidence score.
+A **Machine Learning–powered backend API** that analyzes customer feedback text and classifies it into meaningful business categories, along with a confidence score.
 
-It is designed to demonstrate how **AI models can be safely integrated into real-world backend systems**.
+This project demonstrates how **AI models can be safely integrated into real-world backend systems** using confidence-aware predictions.
 
 ---
 
@@ -11,8 +11,8 @@ It is designed to demonstrate how **AI models can be safely integrated into real
 - Accepts raw customer feedback as text  
 - Uses a trained ML model to classify feedback intent  
 - Returns:
-  - Predicted category  
-  - Model confidence score  
+  - Predicted category
+  - Model confidence score
   - Safe fallback for low-confidence cases  
 - Exposes functionality via a REST API using **FastAPI**
 
@@ -26,11 +26,23 @@ The API classifies feedback into the following categories:
 - **complaint** – negative experiences or issues  
 - **suggestion** – feature requests or improvements  
 - **neutral** – informational or non-opinionated feedback  
-- **uncertain** – returned when the model confidence is low  
+- **uncertain** – returned when model confidence is low  
 
-> Low-confidence predictions are intentionally marked as **`uncertain`** to avoid incorrect automated decisions.
+> Low-confidence predictions are intentionally marked as **uncertain** to avoid incorrect automated decisions.
 
 ---
+
+## 📌 Example API Responses
+
+### ✅ Confident Prediction
+
+```json
+{
+  "category": "complaint",
+  "model_prediction": "complaint",
+  "confidence_score": 0.62
+}
+
 
 
 ## 📌 Example API Responses
