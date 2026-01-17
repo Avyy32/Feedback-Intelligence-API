@@ -32,24 +32,24 @@ The API classifies feedback into the following categories:
 
 ---
 
-📌 Example API Response
 
+## 📌 Example API Responses
 
+### ✅ Confident Prediction
+
+```json
 {
   "category": "complaint",
   "model_prediction": "complaint",
   "confidence_score": 0.62
 }
 
-
-For ambiguous input:
-
+⚠️ Ambiguous Input
 {
   "category": "uncertain",
   "model_prediction": "praise",
   "confidence_score": 0.28
 }
-
 ⚙️ Tech Stack
 
 Python
@@ -80,14 +80,14 @@ feedback-intelligence-api/
 
 POST /analyze
 
-Request:
+Request
 
 {
   "text": "The app crashes frequently and support never responds"
 }
 
 
-Response:
+Response
 
 {
   "category": "complaint",
@@ -99,7 +99,7 @@ Response:
 
 GET /health
 
-Response:
+Response
 
 {
   "status": "ok"
@@ -120,7 +120,7 @@ SaaS user feedback intelligence
 
 Survey and form response analysis
 
-⚠️ Design Note (Important)
+⚠️ Design Philosophy (Important)
 
 This project prioritizes safety and transparency over forced accuracy.
 
@@ -128,13 +128,14 @@ Predictions with low confidence are flagged as uncertain
 
 Confidence scores are exposed to support human decision-making
 
-This reflects how ML systems are used in production environments
+Mirrors how ML systems are used in production environments
 
 ▶️ Running Locally
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-Open:
+
+Open Swagger UI:
 
 http://127.0.0.1:8000/docs
 
@@ -144,4 +145,8 @@ Version: v2
 
 Status: Complete
 
-Next planned improvement: larger dataset and multi-stage classification
+Next Planned Improvement:
+
+Larger dataset
+
+Multi-stage classification
