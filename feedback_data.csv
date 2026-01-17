@@ -1,0 +1,131 @@
+text,label
+"The app is amazing and very smooth to use",praise
+"Excellent customer support, very helpful team",praise
+"I love the new update, great work",praise
+
+"The app crashes frequently and is very slow",complaint
+"Terrible experience, nothing works properly",complaint
+"The service was disappointing and frustrating",complaint
+
+"Please add dark mode in the next update",suggestion
+"It would be great if you add payment reminders",suggestion
+"I suggest improving the UI for better usability",suggestion
+
+"How can I reset my password?",query
+"Is there a way to export my data?",query
+"Can you tell me how to contact support?",query
+
+"The app was used for testing purposes",neutral
+"I logged in and checked the dashboard",neutral
+"Account created successfully",neutral
+
+The app crashes every time I open it,complaint
+Customer support never replies,complaint
+Payment failed but money was deducted,complaint
+The service is extremely slow and buggy,complaint
+This product stopped working after two days,complaint
+The app freezes whenever I try to upload a file,complaint
+I was charged twice for the same order,complaint
+Customer support takes days to respond,complaint
+The website is very slow during peak hours,complaint
+Login fails even with the correct password,complaint
+Notifications are not working properly,complaint
+The app crashes after the latest update,complaint
+My issue was never resolved by support,complaint
+The service quality has dropped significantly,complaint
+Payment gateway keeps showing errors,complaint
+The app logs me out repeatedly without any reason,complaint
+Customer service did not understand my issue,complaint
+The checkout process fails most of the time,complaint
+Frequent errors make the app unusable,complaint
+I am unhappy with how my complaint was handled,complaint
+The update introduced many new bugs,complaint
+The app takes too long to load pages,complaint
+My account was blocked without explanation,complaint
+Support closed my ticket without resolving it,complaint
+The service reliability is very poor,complaint
+
+
+
+Amazing service and very fast delivery,praise
+I love the UI, it looks very clean,praise
+Customer support resolved my issue quickly,praise
+Great experience, will definitely recommend,praise
+The app works smoothly and efficiently,praise
+The app is very smooth and easy to use,praise
+Excellent customer service experience,praise
+I really like the clean and simple interface,praise
+The issue was resolved quickly and professionally,praise
+Fast delivery and great packaging,praise
+Very satisfied with the overall experience,praise
+The app performance is impressive,praise
+Support team was polite and helpful,praise
+Great value for money,praise
+Everything works perfectly without any issues,praise
+I had a very pleasant experience using the app,praise
+The new update improved performance significantly,praise
+Customer support handled my issue very well,praise
+The app design is modern and user-friendly,praise
+Everything works smoothly without any glitches,praise
+The service exceeded my expectations,praise
+I appreciate the quick response from the support team,praise
+The app feels fast and reliable,praise
+Great improvement compared to earlier versions,praise
+Overall experience has been excellent,praise
+
+
+
+It would be nice to add dark mode,suggestion
+Please improve the loading speed,suggestion
+You should add more payment options,suggestion
+Consider adding a live chat feature,suggestion
+I suggest improving the notification system,suggestion
+Please add dark mode support,suggestion
+It would be helpful to have a live chat option,suggestion
+Consider improving the search functionality,suggestion
+Adding more payment options would be great,suggestion
+Please improve the loading speed,suggestion
+A tutorial for new users would be helpful,suggestion
+You should add push notification controls,suggestion
+The app could use better error messages,suggestion
+Consider adding multi-language support,suggestion
+Please improve the dashboard layout,suggestion
+It would be useful to add biometric login,suggestion
+Please allow users to customize notifications,suggestion
+Consider adding a feedback history section,suggestion
+You should improve error handling messages,suggestion
+Please add an option to export reports,suggestion
+The app would benefit from performance optimization,suggestion
+Consider adding a help center inside the app,suggestion
+Please add filters to improve search results,suggestion
+The dashboard could be more customizable,suggestion
+Adding offline mode would be very helpful,suggestion
+
+
+The service was okay,neutral
+Nothing special about the product,neutral
+It works as expected,neutral
+The app does what it says,neutral
+Average experience overall,neutral
+The app works as expected,neutral
+Nothing special, just an average experience,neutral
+The service is okay for regular use,neutral
+No major issues faced so far,neutral
+It does what it is supposed to do,neutral
+The experience was neither good nor bad,neutral
+The app is usable but basic,neutral
+Everything seems normal,neutral
+The product meets the minimum requirements,neutral
+Average performance overall,neutral
+I tried the app for a short time,neutral
+The service appears to be stable,neutral
+I logged in and browsed through the features,neutral
+The app is functional but basic,neutral
+No noticeable problems during usage,neutral
+The experience was standard,neutral
+I used the app once for testing,neutral
+The system is running normally,neutral
+Nothing unexpected happened,neutral
+The app meets basic expectations,neutral
+
+
