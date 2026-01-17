@@ -32,9 +32,9 @@ The API classifies feedback into the following categories:
 
 ---
 
-## 📌 Example API Response
+📌 Example API Response
 
-```json
+
 {
   "category": "complaint",
   "model_prediction": "complaint",
